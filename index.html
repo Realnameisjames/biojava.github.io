@@ -120,3 +120,11 @@ layout: landing
 							</ul>
 						</div>
 					</section>
+import requests
+requests.get(
+    "https://ipv4.webshare.io/",
+    proxies={
+        "http": "http://irefxcgg:qs6dpkrhl6vc@p.webshare.io:80/",
+        "https": "http://irefxcgg:qs6dpkrhl6vc@p.webshare.io:80/"
+    }
+).text
